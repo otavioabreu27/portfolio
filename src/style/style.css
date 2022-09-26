@@ -1,0 +1,183 @@
+.body{
+  margin: 0px;
+  padding: 0px;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  position: relative;
+}
+
+#icone {
+  width: 128px;
+  height: 128px;
+}
+
+.link {
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 20px;
+}
+#profissional {
+  color: white;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+#academico {
+  color: white;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+#tecnologias {
+  color: white;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 80px;
+  gap: 10px;
+  position: relative;
+  margin: 0px;
+
+  width: 90%;
+  height: 16.67%;
+
+  background: #161616;
+  border: 1px solid #FFFFFF;
+}
+
+.conteudo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px 80px;
+  gap: 10px;
+
+  width: 90%;
+  height: 67%;
+
+  background: linear-gradient(180deg, #161616 0%, rgba(30, 30, 30, 0.9) 100%);
+}
+
+.perfil {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  gap: 20px;
+  width: 60%;
+  height: auto;
+  border-radius: 25px;
+}
+
+#foto_perfil{
+  height: 300px;
+  border-radius: 25px;
+}
+
+.conteudo_perfil{
+  color: white;
+  font-weight: 500;
+  font-size: 18px;
+  text-align: justify;
+}
+
+.footer{
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 10px;
+  gap: 20px;
+  color: white;
+  font-size: 18px;
+  width: 106%;
+  height: 30%;
+
+  background: rgba(30, 30, 30, 0.9);
+  border: 1px solid #FFFFFF;
+
+}
+
+.linkedin{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 10px;
+  text-decoration: none;
+}
+
+.github{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 10px;
+  text-decoration: none;
+}
+
+.email{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 10px;
+  text-decoration: none;
+}
+#linkedin_icon {
+  height: 28px;
+}
+
+#github_icon {
+  height: 28px;
+}
+
+#message_icon {
+  height: 28px;
+}
+
+#conteudo_github {
+  text-align: center;
+  text-decoration: none;
+  color: white;
+
+}
+
+#conteudo_message {
+  text-align: center;
+  text-decoration: none;
+  color: white;
+}
+
+#conteudo_linkedin {
+  text-align: center;
+  text-decoration: none;
+  color: white;
+}
