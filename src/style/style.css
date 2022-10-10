@@ -1,52 +1,8 @@
-.body{
-  margin: 0px;
-  padding: 0px;
-}
-
-.main {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-
-  position: relative;
-}
-
-#icone {
-  width: 128px;
-  height: 128px;
-}
-
-.link {
-  text-decoration: none;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  padding: 0px;
-  gap: 20px;
-}
-#profissional {
-  color: white;
-  text-decoration: none;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 18px;
-}
-
-#academico {
-  color: white;
-  text-decoration: none;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 18px;
-}
-
-#tecnologias {
-  color: white;
-  text-decoration: none;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 18px;
+body, html{
+  padding: 0%;
+  margin: 0%;
+  max-width: 100%;
+  height: auto;
 }
 
 .nav {
@@ -54,72 +10,130 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  padding: 0px 80px;
-  gap: 10px;
-  position: relative;
-  margin: 0px;
-
-  width: 90%;
-  height: 16.67%;
-
+  padding: 0 6vw;
+  gap: auto;
+  max-width: 100vw;
+  max-height: 16.67vh;
   background: #161616;
   border: 1px solid #FFFFFF;
 }
 
-.conteudo {
+.nav #iconNav {
+  max-height: 16.67vh;
+  max-width: 16.67vw;
+}
+
+.link {
   display: flex;
   flex-direction: row;
+  justify-content: center;
   align-items: center;
-  padding: 0px 80px;
-  gap: 10px;
+  padding: 0%;
+  gap: 6%;
+  width: auto;
+  height: auto;
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 3vh;
+}
 
-  width: 90%;
-  height: 67%;
+.link span{
+  color: white;
+}
 
+a:link{
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  text-decoration-color: white;
+}
+
+.conteudo {
+  display: flex;
+  flex-direction: row; 
+  justify-content: center;
+  align-items: center;
+  padding: 0% 6vw;
+  gap: 4vw;
+  max-width: 100vw;
+  min-height: 66.7vh;
   background: linear-gradient(180deg, #161616 0%, rgba(30, 30, 30, 0.9) 100%);
 }
 
-.perfil {
+.perfil{
   box-sizing: border-box;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding: 50px;
-  gap: 20px;
-  width: 60%;
-  height: auto;
-  border-radius: 25px;
+  padding: 3vh 3vw;
+  gap: 3vw;
+  max-width: 60vw;
+  max-height: 80vh;
+  border-radius: 25%;
 }
 
-#foto_perfil{
-  height: 300px;
-  border-radius: 25px;
+#imgPerfil {
+  justify-content: center;
+  align-items: center;
+  max-width: 30%;
+  border-radius: 5%;
 }
 
-.conteudo_perfil{
-  color: white;
+.conteudoPerfil{
+  background-color: white;
+  height: 30vh;
+  width: 40vw;
+  padding: 1vh 1vw;
+  border-radius: 1%;
+  align-items: center;
+  justify-content: center;
+}
+
+#titlePerfil {
+  font-family: 'Lato';
+  font-style: normal;
   font-weight: 500;
-  font-size: 18px;
+  font-size: 4vh;
   text-align: justify;
+  color: #161616;
+  text-decoration: underline;
 }
 
-.footer{
-  box-sizing: border-box;
+#textPerfil {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 3vh;
+  text-align: justify;
+  color: #161616;
+}
+
+.footer {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding: 40px 10px;
-  gap: 20px;
-  color: white;
-  font-size: 18px;
-  width: 106%;
-  height: 30%;
-
+  padding: 0 6vw;
+  gap: 4vw;
+  max-width: 100vw;
+  min-height: 16.45vh;
   background: rgba(30, 30, 30, 0.9);
-  border: 1px solid #FFFFFF;
+}
 
+.footer img{
+  max-height: 6vh;
+}
+
+.footer span{
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 3vh;
+  color: white;
 }
 
 .linkedin{
@@ -127,9 +141,7 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding: 0px;
-  gap: 10px;
-  text-decoration: none;
+  gap: 1vw;
 }
 
 .github{
@@ -137,9 +149,7 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding: 0px;
-  gap: 10px;
-  text-decoration: none;
+  gap: 1vw;
 }
 
 .email{
@@ -147,37 +157,5 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding: 0px;
-  gap: 10px;
-  text-decoration: none;
-}
-#linkedin_icon {
-  height: 28px;
-}
-
-#github_icon {
-  height: 28px;
-}
-
-#message_icon {
-  height: 28px;
-}
-
-#conteudo_github {
-  text-align: center;
-  text-decoration: none;
-  color: white;
-
-}
-
-#conteudo_message {
-  text-align: center;
-  text-decoration: none;
-  color: white;
-}
-
-#conteudo_linkedin {
-  text-align: center;
-  text-decoration: none;
-  color: white;
+  gap: 1vw;
 }
