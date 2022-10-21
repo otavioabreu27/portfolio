@@ -1,0 +1,14 @@
+{% extends "layout.html" %}
+{% block conteudo %}
+    <div class="perfil">
+      <img id="imgPerfil" src="{{ url_for('static',filename='media/foto_perfil.jpg') }}">
+      <div class="conteudoPerfil">
+        <p id="titlePerfil">
+          Otávio Abreu dos Santos Silva, 19
+        </p>
+        <p id="textPerfil">
+          Atualmente atuando como Scrum Master e procurando por uma vaga de desenvolvimento.
+        </p>
+      </div>
+    </div>
+{% endblock %}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  {% block head %}
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static',filename='styles/style.css') }}">
+    <title>Otávio's CV</title>
+  {% endblock %}
+</head>
+<body>
+  <div class="nav">
+    {% block nav %}
+      <a href="/">
+        <img id="iconNav" src="{{ url_for('static',filename='media/icon.png') }}">
+      </a>
+      <div class="link">
+        <a href="/profissional">
+          <span>Profissional</span>
+        </a>
+        <a href="/academico">
+          <span>Acadêmico</span>
+        </a>
+        <a href="/tecnologias">
+          <span>Tecnologias</span>
+        </a>
+      </div>
+    {% endblock %}
+  </div>
+  <div class="conteudo">
+    {% block conteudo %}
+    {% endblock %}
+  </div>
+  <div class="footer">
+    {% block footer %}
+      <div class="linkedin">
+        <a href="https://www.linkedin.com/in/o-abreu/" target="blank">
+          <img src="{{ url_for('static',filename='media/linkedin.png') }}">
+          <span>/o-abreu</span>
+        </a>
+      </div>
+      <div class="github">
+        <a href="https://github.com/otavioabreu27" target="blank">
+          <img src="{{ url_for('static',filename='media/github.png') }}">
+          <span>/otavioabreu27</span>
+        </a>
+      </div>
+      <div class="email">
+        <a href="mailto:otavio.abreu96@gmail.com?subject=Olá%20Otávio!" target="blank">
+          <img src="{{ url_for('static',filename='media/message.png') }}">
+          <span>otavio.abreu96@gmail.com</span>
+        </a>
+      </div>
+    {% endblock %}
+  </div>
+</body>
+</html>

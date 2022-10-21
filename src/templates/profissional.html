@@ -1,0 +1,82 @@
+{% extends "layout.html" %}
+{% block conteudo %}
+<div class="Card">
+    <img class="imgCard" src="{{ url_for('static',filename='media/ime.png') }}">
+    <div class="conteudoCard">
+      <p>
+        <b><span class="titleConteudo">Instituição:</span></b>
+        <span class="textConteudo">IME-USP</span>
+      </p>
+      <p>
+        <b><span class="titleConteudo">Cargo:</span></b>
+        <span class="textConteudo">Desenvolvedor Python</span>
+      </p>
+      <p>
+        <b><span class="titleConteudo">Período de atuação:</span></b>
+          <span class="textConteudo">mai de 2020 - dez de 2020</span>
+      </p>
+      <p>
+          <hr>
+          <span class="titleConteudo">Atividades</span>
+          <p class="textConteudo">
+              - Desenvolvimento Python<br>
+              - Manipulação de Arquivo Texto<br>
+              - Automatização de processos<br>
+              - Software Educacional<br>
+          </p>
+      </p>
+    </div>
+</div>
+<div class="Card">
+  <img class="imgCard" src="{{ url_for('static',filename='media/obj.jpg') }}">
+  <div class="conteudoCard">
+    <p>
+      <b><span class="titleConteudo">Instituição:</span></b>
+      <span class="textConteudo">Colégio Objetivo Aquarius</span>
+    </p>
+    <p>
+      <b><span class="titleConteudo">Cargo:</span></b>
+      <span class="textConteudo">Suporte de TI</span>
+    </p>
+    <p>
+      <b><span class="titleConteudo">Período de atuação:</span></b>
+        <span class="textConteudo">mar de 2022 - set de 2022</span>
+    </p>
+    <p>
+        <hr>
+        <span class="titleConteudo">Atividades</span>
+        <p class="textConteudo">
+            - Manutenção de Hardware<br>
+            - Manutenção de Software<br>
+            - Apoio ao usuário<br>
+        </p>
+    </p>
+  </div>
+</div>
+<div class="Card">
+  <img class="imgCard" src="{{ url_for('static',filename='media/eb.png') }}">
+  <div class="conteudoCard">
+    <p>
+      <b><span class="titleConteudo">Instituição:</span></b>
+      <span class="textConteudo">Exército Brasileiro</span>
+    </p>
+    <p>
+      <b><span class="titleConteudo">Cargo:</span></b>
+      <span class="textConteudo">Suporte de TI</span>
+    </p>
+    <p>
+      <b><span class="titleConteudo">Período de atuação:</span></b>
+        <span class="textConteudo">jun de 2021 - fev de 2022</span>
+    </p>
+    <p>
+        <hr>
+        <span class="titleConteudo">Atividades</span>
+        <p class="textConteudo">
+            - Manutenção de Hardware<br>
+            - Manutenção de Software<br>
+            - Sistemas Linux
+        </p>
+    </p>
+  </div>
+</div>
+{% endblock %}

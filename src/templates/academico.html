@@ -1,0 +1,45 @@
+{% extends "layout.html" %}
+{% block conteudo %}
+<div class="Card">
+  <img class="imgCard" src="{{ url_for('static',filename='media/fatec.png') }}">
+  <div class="conteudoCard">
+    <p>
+      <b><span class="titleConteudo">Instituição:</span></b>
+      <span class="textConteudo">Fatec SJC</span>
+    </p>
+    <p>
+      <b><span class="titleConteudo">Grau:</span></b>
+      <span class="textConteudo">Técnologo</span>
+    </p>
+    <p>
+      <b><span class="titleConteudo">Duração:</span></b>
+        <span class="textConteudo">ago de 2022 - ago de 2025 [em curso]</span>
+    </p>
+    <p>
+      <b><span class="titleConteudo">Curso:</span></b>
+        <span class="textConteudo">Desenvolvimento de Software Multiplataforma</span>
+    </p>
+  </div>
+</div>
+<div class="Card">
+  <img class="imgCard" src="{{ url_for('static',filename='media/univap.png') }}">
+  <div class="conteudoCard">
+    <p>
+      <b><span class="titleConteudo">Instituição:</span></b>
+      <span class="textConteudo">Cólegio Univap CTI</span>
+    </p>
+    <p>
+      <b><span class="titleConteudo">Grau:</span></b>
+      <span class="textConteudo">Técnico</span>
+    </p>
+    <p>
+      <b><span class="titleConteudo">Duração:</span></b>
+        <span class="textConteudo">fev de 2018 - dez de 2020</span>
+    </p>
+    <p>
+      <b><span class="titleConteudo">Curso:</span></b>
+        <span class="textConteudo">Informática</span>
+    </p>
+  </div>
+</div>
+{% endblock %}

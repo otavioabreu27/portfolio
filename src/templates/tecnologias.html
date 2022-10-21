@@ -1,0 +1,66 @@
+{% extends "layout.html" %}
+{% block conteudo %}
+    <span class="gridTitle">Front-end Stack</span>
+    <div class="gridView">
+        <div class="gridLine">
+            <div class="gridItem">
+                <img class="gridItemImg" src="{{ url_for('static',filename='media/html.png') }}">
+                <span class="gridItemTitle">HTML5</span>
+                <span class="gridItemLevel">Nível: Intermediário</span>
+            </div>
+            <div class="gridItem">
+                <img class="gridItemImg" src="{{ url_for('static',filename='media/css.png') }}">
+                <span class="gridItemTitle">CSS3</span>
+                <span class="gridItemLevel">Nível: Intermediário</span>
+            </div>
+            <div class="gridItem">
+                <img class="gridItemImg" src="{{ url_for('static',filename='media/js.png') }}">
+                <span class="gridItemTitle">JavaScript</span>
+                <span class="gridItemLevel">Nível: Iniciante</span>
+            </div>
+            <div class="gridItem">
+                <img class="gridItemImg" src="{{ url_for('static',filename='media/bootstrap.png') }}">
+                <span class="gridItemTitle">Bootstrap</span>
+                <span class="gridItemLevel">Nível: Iniciante</span>
+            </div>
+        </div>
+    </div>
+    <span class="gridTitle">Back-end Stack</span>
+    <div class="gridView">
+        <div class="gridLine">
+            <div class="gridItem">
+                <img class="gridItemImg" src="{{ url_for('static',filename='media/python.png') }}">
+                <span class="gridItemTitle">Python</span>
+                <span class="gridItemLevel">Nível: Avançado</span>
+            </div>
+            <div class="gridItem">
+                <img class="gridItemImg" src="{{ url_for('static',filename='media/flask.png') }}">
+                <span class="gridItemTitle">Flask</span>
+                <span class="gridItemLevel">Nível: Intermediário</span>
+            </div>
+            <div class="gridItem">
+                <img class="gridItemImg" src="{{ url_for('static',filename='media/nodejs.png') }}">
+                    <span class="gridItemTitle">NodeJS</span>
+                    <span class="gridItemLevel">Nível: Intermediário</span>
+            </div>
+        </div>
+        <div class="gridLine">
+            <div class="gridItem">
+                <img class="gridItemImg" src="{{ url_for('static',filename='media/ruby.png') }}">
+                <span class="gridItemTitle">Ruby</span>
+                <span class="gridItemLevel">Nível: Intermediário</span>
+            </div>
+            <div class="gridItem">
+                <img class="gridItemImg" src="{{ url_for('static',filename='media/cpp.png') }}">
+                <span class="gridItemTitle">C++</span>
+                <span class="gridItemLevel">Nível: Intermediário</span>
+            </div>
+            <div class="gridItem">
+                <img class="gridItemImg" src="{{ url_for('static',filename='media/sql.png') }}">
+                    <span class="gridItemTitle">SQL</span>
+                    <span class="gridItemLevel">Nível: Iniciante</span>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}
